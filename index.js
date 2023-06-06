@@ -188,5 +188,5 @@ function signV1(obj) {
     timeout: 30000,
   });
 
-  console.log(response);
+  console.log(response.data);
 })();
